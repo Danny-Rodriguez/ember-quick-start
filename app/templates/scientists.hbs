@@ -1,8 +1,10 @@
-{{page-title "Scientists"}}
+{{!-- {{page-title "Scientists"}}
 <h2>List of Scientists</h2>
 <ul>
   {{#each @model as |scientist|}}
     <li>{{scientist}}</li>
   {{/each}}
-</ul>
+</ul> --}}
 {{!-- {{outlet}} --}}
+
+<PeopleList @title="list of Scientists" @people={{@model}} />
